@@ -3,6 +3,7 @@ var people = ['juan','ana','michelle','daniella','stefany','lucy','barak'];
 function deletePerson(personName)
 {
     //your code here
+    //first try
     //let a = []
     //for(let i = 0; i < people.length; i++){
     //    if (people[i] !== personName){
@@ -10,6 +11,7 @@ function deletePerson(personName)
     //    };
     //}
     //return a
+    //second try
     //const a = people.filter(function(people){
     //    if (people !== personName){
     //        return true;
