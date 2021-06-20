@@ -5,3 +5,8 @@ var latitude = coordinatesArray[0][0];
 //The first coordinate longitude
 var longitude = coordinatesArray[0][1];
 
+for(let i = 0; i < coordinatesArray.length; i++){
+    let result = coordinatesArray[i][1];
+    console.log(result);
+}
+//try forEach
