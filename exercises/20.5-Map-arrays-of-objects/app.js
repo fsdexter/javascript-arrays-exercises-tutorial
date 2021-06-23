@@ -9,10 +9,14 @@ let people = [
 
 
 let simplifier = function(person){
+    const bDate = person.birthDate
+    const today = new Date();
 
+    const dif = today - bDate;
+    const age = Math.floor(dif / (365.25*24*60*60*1000))
 
     
-	return 'Hello, my name is '+person.name+' and I am '+32+' years old' ;
+	return 'Hello, my name is '+person.name+' and I am '+age+' years old';
 };
 
 console.log(people.map(simplifier));
